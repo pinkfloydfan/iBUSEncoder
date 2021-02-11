@@ -2,7 +2,7 @@
 Super-simple C++ code for encoding a serial FlySky iBUS signal, in order to (for example) interface with Betaflight flight controllers.
 
 # Background
-It's difficult to find coherent documentation for various serial receiver protocols online. Common ways of interfacing with a flight controller include Futaba SBUS, iBUS and PPM. SBUS requires a lot of muckery with inverting UARTs, and PPM may require more advanced microcontroller knowledge and working with interrupts and timers, making it difficult to write code which accepts various microcontroller architectures. Out of all serial protocols, iBUS is perhaps the simplest, yet afaik there isn't yet a library that encodes iBUS signals (however there are plenty that read them). Here's some sample code to demonstrate how to generate a iBUS signal. 
+It's difficult to find coherent documentation for various serial receiver protocols online. Common ways of interfacing with a flight controller include Futaba SBUS, iBUS and PPM. SBUS requires a lot of muckery with inverting UARTs, and PPM may require more advanced microcontroller knowledge and working with interrupts and timers, making it difficult to write code which accepts various microcontroller architectures. Out of all serial protocols, iBUS is perhaps the simplest, yet afaik there isn't yet a library that encodes iBUS signals (however there are plenty that read them).
 
 # iBUS protocol overview 
 See the following material:
